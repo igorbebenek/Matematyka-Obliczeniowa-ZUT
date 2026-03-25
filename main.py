@@ -7,8 +7,8 @@ np.set_printoptions(precision=15, suppress=False, formatter={'float': '{: .15e}'
 matplotlib.use('TkAgg')
 
 #Zadanie 1
-single = np.arange(1,10**6+1,dtype=np.float32)
-double = np.arange(1,10**6+1,dtype=np.float64)
+single = np.arange(1,10**9+1,dtype=np.float32)
+double = np.arange(1,10**9+1,dtype=np.float64)
 #A1 sum
 
 suma_A1_single = 0.0
